@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>احجز الآن</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+</head>
+<body>
+  <header>
+    <h1>احجز الآن</h1>
+    <ul>
+      
+      <li><a href="#raisyah.html">الرئيسية</a></li>
+      <li><a href="#wajahh.html">الوجهات</a></li>
+      <li><a href="#aroth.html">العروض</a></li>
+      <li><a href="#etsl.html">اتصل بنا</a></li>
+    </ul>
+  </header>
+  
+  <section>
+    <form id="reservationForm" action="submit.php" method="post">
+      <label for="name">الاسم:</label>
+      <input type="text" id="name" name="name" required>
+      
+      <label for="email">البريد الإلكتروني:</label>
+      <input type="email" id="email" name="email" required>
+      
+      <label for="date">التاريخ:</label>
+      <input type="date" id="date" name="date" required>
+      
+      <label for="time">الوقت:</label>
+      <input type="time" id="time" name="time" required>
+      
+      <label for="message">ملاحظات إضافية:</label>
+      <textarea id="message" name="message"></textarea>
+      
+      <button type="submit">احجز</button>
+    </form>
+  </section>
+  
+  <footer>
+    <p>جميع الحقوق محفوظة &copy; 2023</p>
+  </footer>
+</body>
+</html>
